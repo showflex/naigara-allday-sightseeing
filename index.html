@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ナイアガラ終日観光</title>
   <style>
-    body {
-      text-align: center;
-      padding: 10px;
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
     }
-    img {
-      max-width: 100%;
-      height: auto;
+    iframe {
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
 <body>
-  <!-- PDFの1ページ目を画像として表示 -->
-  <img src="ナイアガラ終日観光-images-1.jpg" alt="ナイアガラ終日観光 1ページ目" />
-  <!-- PDFの2ページ目を画像として表示 -->
-  <img src="ナイアガラ終日観光-images-2.jpg" alt="ナイアガラ終日観光 2ページ目" />
+  <!-- iframeを使用してPDFを埋め込む -->
+  <iframe src="ナイアガラ終日観光.pdf"></iframe>
 </body>
 </html>
